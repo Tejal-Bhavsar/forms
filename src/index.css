@@ -1,4 +1,13 @@
-body {
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&family=Roboto+Condensed&display=swap');
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  background-color: #d2dbdd;
+
+  }body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +19,48 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+div {
+  width: 100%;
+  height: 100vh;
+  background-color: #8e44ad;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1{
+  color: white;
+  background: transparent;
+  text-shadow: 0 2px 2px black;
+
+}
+
+button {
+  padding: 12px 20px;
+  background: #9b59b6;
+  color: white;
+  border: 2px solid #ecf0f1;
+  outline: none;
+  border-radius: 5px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+input{
+
+  height: 4rem;
+  width: 30rem;
+  pad: 10px 20px;
+  border: none;
+  outline:  none;
+  margin: 20px 0;
+  text-align: center;
+
+}
+
+.form1div{
+  width: 30rem
 }
